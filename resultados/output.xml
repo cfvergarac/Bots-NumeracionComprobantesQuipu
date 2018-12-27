@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180703 10:39:16.091" generator="Robot 3.0.4 (Python 2.7.14 on win32)">
+<suite source="C:\Users\pcc\Documents\Desarrollo\Robots numeracion de comprobantes\robot1.robot" id="s1" name="Robot1">
+<test id="s1-t1" name="CP.1">
+<kw name="CreaComprobante">
+<arguments>
+<arg>4010</arg>
+<arg>100</arg>
+<arg>cristian1</arg>
+<arg>GC4</arg>
+<arg>2428</arg>
+<arg>902</arg>
+<arg>202</arg>
+<arg>1879</arg>
+<arg>201806</arg>
+<arg>2138</arg>
+</arguments>
+<kw name="LoginQPLargo" library="LoginQP">
+<arguments>
+<arg>R</arg>
+</arguments>
+<kw name="Run" library="AutoItLibrary">
+<doc>Direct wrapper for AutoIt's Run method.</doc>
+<arguments>
+<arg>C:/orant/BIN/ifrun60.EXE ${unidad}:/SFI/GENERAL/FMX/GEMOMENU.fmx</arg>
+<arg>${unidad}:/SFI_TMP</arg>
+</arguments>
+<msg timestamp="20180703 10:39:23.287" level="INFO">AutoItLibrary.Run(FileName='C:/orant/BIN/ifrun60.EXE R:/SFI/GENERAL/FMX/GEMOMENU.fmx', WorkingDir='R:/SFI_TMP', Flag='')</msg>
+<status status="PASS" endtime="20180703 10:39:23.287" starttime="20180703 10:39:23.057"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20180703 10:39:28.289" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20180703 10:39:28.289" starttime="20180703 10:39:23.287"></status>
+</kw>
+<kw name="Win Wait Active" library="AutoItLibrary">
+<doc>Direct wrapper for AutoIt's WinWaitActive method.</doc>
+<arguments>
+<arg>Sistema de Administración de Menús.</arg>
+</arguments>
+<msg timestamp="20180703 10:39:31.619" level="INFO">AutoItLibrary.WinWaitActive(WindowTitle='Sistema de Administraci\xf3n de Men\xfas.', WindowText='', TimeOut=10)</msg>
+<status status="PASS" endtime="20180703 10:39:31.619" starttime="20180703 10:39:28.289"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>vu_sfi</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:31.689" starttime="20180703 10:39:31.619"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>{TAB}</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:31.699" starttime="20180703 10:39:31.689"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>vu_sfi</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:31.769" starttime="20180703 10:39:31.699"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>{TAB}</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:31.779" starttime="20180703 10:39:31.769"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>MZALES03</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:31.929" starttime="20180703 10:39:31.779"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>{TAB}</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:31.939" starttime="20180703 10:39:31.929"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>{ENTER}</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:31.949" starttime="20180703 10:39:31.939"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>SOPORTEIT</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:32.129" starttime="20180703 10:39:31.949"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>{TAB}</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:32.139" starttime="20180703 10:39:32.129"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20180703 10:39:34.152" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20180703 10:39:34.152" starttime="20180703 10:39:32.149"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>Hightech1</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:34.252" starttime="20180703 10:39:34.152"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>{TAB}</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:34.262" starttime="20180703 10:39:34.252"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>{ENTER}</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:34.272" starttime="20180703 10:39:34.262"></status>
+</kw>
+<status status="PASS" endtime="20180703 10:39:34.272" starttime="20180703 10:39:23.057"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>7s</arg>
+</arguments>
+<msg timestamp="20180703 10:39:41.281" level="INFO">Slept 7 seconds</msg>
+<status status="PASS" endtime="20180703 10:39:41.281" starttime="20180703 10:39:34.272"></status>
+</kw>
+<kw name="CrearOrdenPago">
+<arguments>
+<arg>${empresa}</arg>
+<arg>${valor}</arg>
+<arg>${Observacion}</arg>
+<arg>${concepto}</arg>
+</arguments>
+<kw name="LanzarPorForma" library="LanzarPorForma">
+<arguments>
+<arg>Cpmolqop</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20180703 10:39:43.290" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20180703 10:39:43.290" starttime="20180703 10:39:41.281"></status>
+</kw>
+<kw name="Control Click" library="AutoItLibrary">
+<doc>method ControlClick</doc>
+<arguments>
+<arg>Sistema de Administración de Menús.</arg>
+<arg>[CLASS:ui60Drawn_W32; INSTANCE:5]</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:43.300" starttime="20180703 10:39:43.290"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>{TAB}</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:43.310" starttime="20180703 10:39:43.300"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>{TAB}</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:43.320" starttime="20180703 10:39:43.310"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>{ESC}</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:43.330" starttime="20180703 10:39:43.320"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>${forma}</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:43.430" starttime="20180703 10:39:43.330"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>{ENTER}</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:43.440" starttime="20180703 10:39:43.430"></status>
+</kw>
+<status status="PASS" endtime="20180703 10:39:43.440" starttime="20180703 10:39:41.281"></status>
+</kw>
+<kw name="Win Wait Active" library="AutoItLibrary">
+<doc>Direct wrapper for AutoIt's WinWaitActive method.</doc>
+<arguments>
+<arg>Cpmolqop</arg>
+</arguments>
+<msg timestamp="20180703 10:39:46.664" level="INFO">AutoItLibrary.WinWaitActive(WindowTitle='Cpmolqop', WindowText='', TimeOut=10)</msg>
+<status status="PASS" endtime="20180703 10:39:46.664" starttime="20180703 10:39:43.440"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20180703 10:39:47.664" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180703 10:39:47.664" starttime="20180703 10:39:46.664"></status>
+</kw>
+<kw name="Send" library="AutoItLibrary">
+<doc>method Send</doc>
+<arguments>
+<arg>${empresa}{TAB 3}3</arg>
+</arguments>
+<status status="PASS" endtime="20180703 10:39:47.744" starttime="20180703 10:39:47.664">
